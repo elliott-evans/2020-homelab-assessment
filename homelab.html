@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <title>Homelabs | It's Called a Homelab!</title>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Elliott Evans">
+        <meta name="keywords" content="homelab, home server, elliott, evans, elliott evans">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--mobile scale-->
+        <meta name="description" content="">
+        <link rel="icon" href="images/favicon.png">
+        <link rel="stylesheet" media='screen and (min-width: 720px)' href="style.css"> <!--css page for site-->
+        <link rel="stylesheet" media='screen and (max-width: 719px)' href="mobile_style.css"> <!--css page for mobile version of site-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Teko|Ubuntu&display=swap"> <!--adds custom fonts from Google Fonts-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!--This string enables the use of FontAwesome glyphs in the website. www.fontawesome.com-->
+        
+    </head>
+    
+    <body>
+    
+        <header class="title generic"><a href="index.html" class="title_anim"><i class="fas fa-server"></i>  It&apos;s Called a Homelab</a></header> 
+        <!--just a title which links to the index page -->
+        
+        <div class="nav">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <div class="dropdown">
+                <form><button class="dropbtn" formaction="homelab.html" style="background-color:rgba(62, 157, 31,0.95)"> 
+                    <i class="fas fa-server"></i>
+                     Home Servers 
+                    <i class="fa fa-caret-down"></i>
+                </button></form> 
+                <div class="dropdown-content dropdown_content_a">
+                    <a href="homelab.html#whats_a_homelab" class="dropdown_content_a">What's a Homelab?</a>
+                    <a href="homelab.html#why_a_homelab" class="dropdown_content_a">Why a Homelab?</a>
+                    <a href="homelab.html#how_a_homelab" class="dropdown_content_a">How's a Homelab?</a>
+                </div>
+            </div> 
+            <div>
+                <a href="blog.html">
+                    <i class="fab fa-pied-piper-alt"></i> Blog
+                </a>
+                <div class="dropdown">
+                    <form><button class="dropbtn" formaction="mylab.html"> 
+                       <i class="fas fa-database"></i>
+                        My Homelab 
+                        <i class="fa fa-caret-down"></i>
+                    </button></form>
+                    <div class="dropdown-content dropdown_content_b">
+                        <a href="mylab.html#my_hardware" class="dropdown_content_b">My Hardware</a>
+                        <a href="mylab.html#my_software" class="dropdown_content_b">My Software</a>
+                    </div>
+            </div> 
+                <a href="about.html">
+                    <i class="far fa-file-alt"></i> Writeup
+                </a>
+                <a href="contact.html">
+                    <i class="fas fa-dungeon"></i> Contact
+                </a>
+            </div>
+        </div>
+
+    
+        <div class="main">
+            
+            <div class="content main_col  generic"> 
+                <h2 id="whats_a_homelab">What's A Homelab?</h2>
+                    <p>Think of a home lab as a place where you can fail in the privacy of your own home. As Thomas A. Edison said: “I have not failed. I’ve just found 10,000 ways that won’t work.” I consider myself an expert at failure. But seriously, I would like to fail  a lot more and a home lab will create endless opportunities for me to fail. Of course, all the while seeking success, but you got that already.</p>
+                    <p>In general, a lab is a place where you can safely perform experiments. Most of you reading this article are students who want to work in It. As you know, trying out new things on production equipment never ends well. Shush… it’s OK, I know, I know, you didn’t think that one command would take everything offline. This risk is the reason why we build ourselves a sandbox environment to dabble, test and fail in, all from the comfort of our own homes.<br><hr>
+                <h2 id="why_a_homelab">Why a Homelab?</h2>
+                    <p>
+                    One of the best ways to learn about systems, applications, and technology is starting a homelab.  A Homelab can give you an enjoyable, low stress, practical way to learn technology.  A homelab will also help you find out the technical areas in which you are interested.  It’s also practical in that you can use it to service your own home.
+                    </p>
+                    <h4>You could use it to learn about:</h4>
+                    <ul>
+                        <li> ⁠— Routers, Firewalls, and Web-hosting</li>
+                        <li> ⁠— Peer-to-peer networking</li>
+                        <li> ⁠— Virtualising different operating systems</li>
+                        <li> ⁠— Network-attached storage systems</li>
+                        <li> ⁠— Infrastructure Automation</li>
+                        Or anything else you can think of!
+                    </ul>
+                    <br><hr>
+                <h2 id="how_a_homelab">How's A Homelab?</h2>
+                    <p>Depending on your budget and what you want in your homelab, you can use a repurposed desktop, or get something as small as a Raspberry Pi to a huge tower of rack servers. You could get a rack of servers. Many people like the small Microserver form factor. They’re quiet, can be equipped with powerful CPU, tons of memory, and lots of storage. But they’re compact enough you can hide them under your desk.</p><br>
+                    <p><b>I would recommend looking at the links in the sidebar if you want to learn more. There are lots of great resources there!</b></p>
+            </div><!--The actual content of the web-page-->
+
+            <div class="sidebar main_col generic">
+                <p><b>OTHER RESOURCES</b></p>
+                <p>Below you will find a number of useful resources for homelabs.</p>
+                <div class="sidebar_dropdown">
+                    <br>
+                    <ul>
+                        <li><a href="https://www.reddit.com/r/homelab/">r/homelab subreddit</a></li>
+                        <hr>
+                        <li><a href="https://www.reddit.com/r/homelab/wiki/">r/homelab wiki</a></li>
+                        <hr>
+                        <li><a href="https://reddit.com/r/selfhosted/">r/selfhosted software</a></li>
+                        <hr>
+                        <li><a href="https://www.wired.com/2010/02/set-up-a-home-server/">WIRED's Homelab Guide</a></li>
+                        <hr>
+                        <li><a href="https://haydenjames.io/home-lab-beginners-guide-hardware/">A Beginners Guide</a></li>
+                        <hr>
+                        <li><a href="https://b3n.org/homelab-ideas/">Ideas for Homelabs</a></li>
+                        <hr>
+                        <li><a href="https://opensource.com/article/19/3/home-lab">opensource.com's guide</a></li>
+                    </ul>
+                    <hr>
+                    <br>
+                    <hr>
+                    <p>And some informative blogs about homelabs:</p>
+                    <ul>
+                        <li><a href="https://blog.monstermuffin.org/">Monstermuffin's Blog</a></li>
+                        <li><a href="https://homelab.blog/">CaeDoesHomelab's Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="social generic">
+            
+            <a href="https://www.reddit.com" class=""><div class="reddit_social social_button generic"><i class="fab fa-reddit-alien"></i></div></a>
+            
+            <a href="https://www.twitter.com" class=""><div class="twitter_social social_button generic"><i class="fab fa-twitter"></i></div></a>
+            
+            <a href="https://www.facebook.com" class=""><div class="facebook_social social_button generic"><i class="fab fa-facebook-f"></i></div></a>
+            
+            <a href="https://www.instagram.com" class=""><div class="instagram_social social_button generic"><i class="fab fa-instagram"></i></div></a>
+            
+            <a href="https://www.linkedin.com" class=""><div class="linkedin_social social_button generic"><i class="fab fa-linkedin-in"></i></div></a>
+            
+            <a href="https://www.discordapp.com" class=""><div class="discord_social social_button generic"><i class="fab fa-discord"></i></div></a>
+            
+            <a href="https://www.googleplus.com" class=""><div class="gplus_social social_button generic"><i class="fab fa-google-plus-g"></i></div></a>
+
+            <p style="vertical-align: middle;margin-top: 2.23vw;font-size:2vw;padding-left:10px;" class="socialtext">  <i class="fas fa-arrow-left"></i> Follow us online!</p>
+        </div>
+        
+        <div class="footer generic">
+            
+            <hr>
+            
+            <table class="footer_nav">
+                <tr>
+                    <th><a href="index.html">HOME</a></th>
+                    <th style="background-color:rgba(0,0,0,0.25)"><a href="homelab.html">HOME SERVERS</a></th>
+                    <th><a href="blog.html">BLOG</a></th>
+                    <th><a href="mylab.html">MY HOMELAB</a></th>
+                    <th><a href="about.html">Writeup</a></th>
+                    <th><a href="contact.html">CONTACT US</a></th>
+                </tr>
+                <tr>
+                    <td><a href="#"></a></td>
+                    <td style="background-color:rgba(0,0,0,0.25)"><a href="homelab.html#whats_a_homelab">What's A Homelab?</a></td>
+                    <td><a href="blog.html">Missing</a></td>
+                    <td><a href="mylab.html#my_hardware">My Hardware</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#"></a></td>
+                    <td style="background-color:rgba(0,0,0,0.25)"><a href="homelab.html#why_a_homelab">Why's A Homelab?</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="mylab.html#my_software">My Sofware</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#"></a></td>
+                    <td style="background-color:rgba(0,0,0,0.25)"><a href="homelab.html#how_a_homelab">How's A Homelab?</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                </tr>
+            </table>
+            
+            <hr>
+           
+            
+            <p>Licensed under GNU General Public Licence v3 (<a href="https://fsf.org/" style="color: rgb(46, 117, 22); text-decoration: none;">fsf.org</a>).</p>
+            
+            <p>Image copyright Pixabay/Elliott Evans 2020</p>
+            
+            <h4><a href="/rep/egg.html" style="color: black;">GPL</a> v3 Elliott Evans, 2019</h4>
+    
+        </div>
+        
+    </body>
+    
+</html>
+
+
