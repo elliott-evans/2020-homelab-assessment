@@ -247,3 +247,11 @@ p:not(.cssonly) a[href$=".pdf"]:before {
   display:inline-block;
   content:' ';
 }
+p:not(.cssonly) a[href$=".zip"]:before {
+        /* PDF file */
+  width:32px;
+  height:32px;
+ background:url('https://freeiconshop.com/wp-content/uploads/edd/zip-outline.png');
+  display:inline-block;
+  content:' ';
+}
