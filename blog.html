@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <title>TEMPLATE: It's Called a Homelab!</title>
+        <meta charset="utf-8"> 
+        <meta name="author" content="Elliott Evans">
+        <meta name="keywords" content="homelab, home server, elliott, evans, elliott evans">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--mobile scale-->
+        <meta name="description" content="">
+        <link rel="stylesheet" media='screen and (min-width: 720px)' href="style.css"> <!--css page for site-->
+        <link rel="stylesheet" media='screen and (max-width: 719px)' href="mobile_style.css"> <!--css page for mobile version of site-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Teko|Ubuntu&display=swap"> <!--adds custom fonts from Google Fonts-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> <!--This string enables the use of FontAwesome glyphs in the website. www.fontawesome.com-->
+        
+    </head>
+    
+    <body>
+    
+        <header class="title generic"><a href="index.html" class="title_anim"><i class="fas fa-server"></i>  It&apos;s Called a Homelab</TITLE></a></header> 
+        <!--just a title which links to the index page -->
+        
+        <div class="nav">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <div class="dropdown">
+                <form><button class="dropbtn" formaction="homelab.html"> 
+                    <i class="fas fa-server"></i>
+                     Home Servers 
+                    <i class="fa fa-caret-down"></i>
+                </button></form> 
+                <div class="dropdown-content dropdown_content_a">
+                    <a href="homelab.html#whats_a_homelab" class="dropdown_content_a">What's a Homelab?</a>
+                    <a href="homelab.html#why_a_homelab" class="dropdown_content_a">Why a Homelab?</a>
+                    <a href="homelab.html#how_a_homelab" class="dropdown_content_a">How's a Homelab?</a>
+                </div>
+            </div> 
+            <div>
+                <a href="blog.html">
+                    <i class="fab fa-pied-piper-alt"></i> Blog
+                </a>
+                <div class="dropdown">
+                    <form><button class="dropbtn" formaction="mylab.html"> 
+                       <i class="fas fa-database"></i>
+                        My Homelab 
+                        <i class="fa fa-caret-down"></i>
+                    </button></form>
+                    <div class="dropdown-content dropdown_content_b">
+                        <a href="mylab.html#my_hardware" class="dropdown_content_b">My Hardware</a>
+                        <a href="mylab.html#my_software" class="dropdown_content_b">My Software</a>
+                    </div>
+            </div> 
+                <a href="about.html">
+                    <i class="far fa-file-alt"></i> Writeup
+                </a>
+                <a href="contact.html">
+                    <i class="fas fa-dungeon"></i> Contact
+                </a>
+            </div>
+        </div>
+
+    
+        <div class="main">
+            
+            <div class="content main_col  generic">
+                <h2>Hey! There isn't content here!</h2><br>
+                <p>That's right, my poor fellow reader. This page is currently barren of all blog-related content.</b></p><br><br>
+                <h2>But why?</h2>
+                <p>Well I'll tell you, it's really quite simple.<br>When I first set out to create this website, I planned to host it on my main server, Lancelot. But as of the time of writing this, I had just moved house and Lancelot is sitting (disconnected) in a corner of the garage. In the meantime, I am hosting this website on Github Pages.</p><br><br>
+                <h2>That's cool and all, but why couldn't you have a blog again?</h2>
+                <p>The issue comes down to how Github handles it's web hosting platform. See, Github Pages is what's known as a <b><i>static</i></b> web host. What's a static host? Basically, it's a web-server which sends the html file to your computer for it to process and display. In contrast, a <b><i>dynamic</i></b> web host (which I would use for hosting blogs) processes the code through programs like PHP and MySQL databases, and tells your computer what to display.</p><br><h2>OK, so go over that again?</h2>
+                <p>Basically, I can't manage a blog here because I don't have the tools I would need.<br>(Oh, running out of time to write content doesn't help either</p>
+            </div>
+
+            <div class="sidebar main_col generic">
+                <p><b>OTHER RESOURCES</b></p>
+                <p>Below you will find a number of useful resources for homelabs.</p>
+                <div class="sidebar_dropdown">
+                    <br>
+                    <ul>
+                        <li><a href="https://www.reddit.com/r/homelab/">r/homelab subreddit</a></li>
+                        <hr>
+                        <li><a href="https://www.reddit.com/r/homelab/wiki/">r/homelab wiki</a></li>
+                        <hr>
+                        <li><a href="https://reddit.com/r/selfhosted/">r/selfhosted software</a></li>
+                        <hr>
+                        <li><a href="https://www.wired.com/2010/02/set-up-a-home-server/">WIRED's Homelab Guide</a></li>
+                        <hr>
+                        <li><a href="https://haydenjames.io/home-lab-beginners-guide-hardware/">A Beginners Guide</a></li>
+                        <hr>
+                        <li><a href="https://b3n.org/homelab-ideas/">Ideas for Homelabs</a></li>
+                        <hr>
+                        <li><a href="https://opensource.com/article/19/3/home-lab">opensource.com's guide</a></li>
+                    </ul>
+                    <hr>
+                    <br>
+                    <hr>
+                    <p>And some informative blogs about homelabs:</p>
+                    <ul>
+                        <li><a href="https://blog.monstermuffin.org/">Monstermuffin's Blog</a></li>
+                        <li><a href="https://homelab.blog/">CaeDoesHomelab's Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="social generic">
+            
+            <a href="https://www.reddit.com" class=""><div class="reddit_social social_button generic"><i class="fab fa-reddit-alien"></i></div></a>
+            
+            <a href="https://www.twitter.com" class=""><div class="twitter_social social_button generic"><i class="fab fa-twitter"></i></div></a>
+            
+            <a href="https://www.facebook.com" class=""><div class="facebook_social social_button generic"><i class="fab fa-facebook-f"></i></div></a>
+            
+            <a href="https://www.instagram.com" class=""><div class="instagram_social social_button generic"><i class="fab fa-instagram"></i></div></a>
+            
+            <a href="https://www.linkedin.com" class=""><div class="linkedin_social social_button generic"><i class="fab fa-linkedin-in"></i></div></a>
+            
+            <a href="https://www.discordapp.com" class=""><div class="discord_social social_button generic"><i class="fab fa-discord"></i></div></a>
+            
+            <a href="https://www.googleplus.com" class=""><div class="gplus_social social_button generic"><i class="fab fa-google-plus-g"></i></div></a>
+
+            <p style="vertical-align: middle;margin-top: 2.23vw;font-size:2vw;padding-left:10px;" class="socialtext">  <i class="fas fa-arrow-left"></i> Follow us online!</p>
+        </div>
+        
+        <div class="footer generic">
+            
+            <hr>
+            
+            <table class="footer_nav">
+                <tr>
+                    <th><a href="index.html">HOME</a></th>
+                    <th><a href="homelab.html">HOME SERVERS</a></th>
+                    <th><a href="blog.html">BLOG</a></th>
+                    <th><a href="mylab.html">MY HOMELAB</a></th>
+                    <th><a href="about.html">Writeup</a></th>
+                    <th><a href="contact.html">CONTACT US</a></th>
+                </tr>
+                <tr>
+                    <td><a href="#"></a></td>
+                    <td><a href="homelab.html#whats_a_homelab">What's A Homelab?</a></td>
+                    <td><a href="blog.html">Missing</a></td>
+                    <td><a href="mylab.html#my_hardware">My Hardware</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#"></a></td>
+                    <td><a href="homelab.html#why_a_homelab">Why's A Homelab?</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="mylab.html#my_software">My Sofware</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#"></a></td>
+                    <td><a href="homelab.html#how_a_homelab">How's A Homelab?</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                </tr>
+            </table>
+            
+            <hr>
+           
+            
+            <p>Licensed under GNU General Public Licence v3 (<a href="https://fsf.org/" style="color: rgb(46, 117, 22); text-decoration: none;">fsf.org</a>).</p>
+            
+            <p>Image copyright Pixabay/Elliott Evans 2020</p>
+            
+            <h4><a href="/rep/egg.html" style="color: black;">GPL</a> v3 Elliott Evans, 2019</h4>
+    
+        </div>
+        
+    </body>
+    
+</html>
+
+
